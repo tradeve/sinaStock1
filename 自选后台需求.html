@@ -1,0 +1,694 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>自选后台需求</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/自选后台需求/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/自选后台需求/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7727" class="ax_default _标题3">
+        <div id="u7727_div" class=""></div>
+        <div id="u7727_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">自选股与账号同步需求</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7728" class="ax_default _标题3">
+        <div id="u7728_div" class=""></div>
+        <div id="u7728_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">搜索页面 热门股票后台配置需求&nbsp; 入口【其他设置-热门搜索设置】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7729" class="ax_default flow_shape">
+        <div id="u7729_div" class=""></div>
+        <div id="u7729_text" class="text ">
+          <p><span>登录状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7730" class="ax_default _文本">
+        <div id="u7730_div" class=""></div>
+        <div id="u7730_text" class="text ">
+          <p><span>1、未登录状态下自选股记录在本地，自选股数量要限制否？请后端帮忙评估数量，200只？&nbsp; 前端做个限制。</span></p><p><span><br></span></p><p><span><br></span></p><p><span>2、从未登录状态转至登录状态下需将本地自选股同步至登录用户账户，新的自选股列表为本地自选股与关联至登录账户自选股的</span><span style="color:#FF0000;">并集</span></p><p><span style="color:#FF0000;">有关新的自选股列表：</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#0D0D0D;">&#149; 新的列表排序： 本地列表+已同步列表&nbsp;&nbsp; 然后从上至下做</span><span style="color:#FF0000;">排重</span><span style="color:#0D0D0D;">。&nbsp;&nbsp; 举例：本地置顶&gt;已同步置顶&gt;本地非置顶&gt;已同步非置顶</span></p><p><span><br></span></p><p><span>3、登录状态下用户自选股需要与账户做关联，置顶、排序、删除等操作要时刻同步。</span></p><p><span><br></span></p><p><span>4、从登录状态下退出登录状态，自选股列表清空</span></p><p><span><br></span></p><p><span>5、手动同步还是自动同步确认</span></p><p><span>&#149;&nbsp; 确定自动同步</span></p><p><span><br></span></p><p><span><br></span></p><p><span>6、前端记录需求：需要在登录时候增加提醒标记（同步自选）</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 同步完成后需给用户提醒</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7731" class="ax_default flow_shape">
+        <div id="u7731_div" class=""></div>
+        <div id="u7731_text" class="text ">
+          <p><span>未登录状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7732" class="ax_default flow_shape">
+        <div id="u7732_div" class=""></div>
+        <div id="u7732_text" class="text ">
+          <p><span>未登录状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u7733" class="compound ax_default line" WidgetHeight="1" WidgetWidth="108" CompoundMode="true">
+        <img id="u7733_img" class="singleImg img " src="images/自选后台需求/u7733.png"/>
+        <div id="u7733p000" class="ax_vector_shape" WidgetTopLeftX="-0.482142857142857" WidgetTopLeftY="0" WidgetTopRightX="0.482142857142857" WidgetTopRightY="0" WidgetBottomLeftX="-0.482142857142857" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.482142857142857" WidgetBottomRightY="0.166666666666667">
+          <img id="u7733p000_img" class="img " src="images/自选后台需求/u7733p000.png"/>
+        </div>
+        <div id="u7733p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.25" WidgetTopRightX="27" WidgetTopRightY="-0.25" WidgetBottomLeftX="0" WidgetBottomLeftY="0" WidgetBottomRightX="27" WidgetBottomRightY="0">
+          <img id="u7733p001_img" class="img " src="images/自选后台需求/u7733p001.png"/>
+        </div>
+        <div id="u7733p002" class="ax_vector_shape" WidgetTopLeftX="5.2" WidgetTopLeftY="0.05" WidgetTopRightX="-0.2" WidgetTopRightY="0.05" WidgetBottomLeftX="5.2" WidgetBottomLeftY="0" WidgetBottomRightX="-0.2" WidgetBottomRightY="0">
+          <img id="u7733p002_img" class="img " src="images/自选后台需求/u7733p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u7734" class="compound ax_default line" WidgetHeight="1" WidgetWidth="108" CompoundMode="true">
+        <img id="u7734_img" class="singleImg img " src="images/自选后台需求/u7733.png"/>
+        <div id="u7734p000" class="ax_vector_shape" WidgetTopLeftX="-0.482142857142857" WidgetTopLeftY="0" WidgetTopRightX="0.482142857142857" WidgetTopRightY="0" WidgetBottomLeftX="-0.482142857142857" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.482142857142857" WidgetBottomRightY="0.166666666666667">
+          <img id="u7734p000_img" class="img " src="images/自选后台需求/u7733p000.png"/>
+        </div>
+        <div id="u7734p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.25" WidgetTopRightX="27" WidgetTopRightY="-0.25" WidgetBottomLeftX="0" WidgetBottomLeftY="0" WidgetBottomRightX="27" WidgetBottomRightY="0">
+          <img id="u7734p001_img" class="img " src="images/自选后台需求/u7733p001.png"/>
+        </div>
+        <div id="u7734p002" class="ax_vector_shape" WidgetTopLeftX="5.2" WidgetTopLeftY="0.05" WidgetTopRightX="-0.2" WidgetTopRightY="0.05" WidgetBottomLeftX="5.2" WidgetBottomLeftY="0" WidgetBottomRightX="-0.2" WidgetBottomRightY="0">
+          <img id="u7734p002_img" class="img " src="images/自选后台需求/u7733p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7735" class="ax_default label">
+        <div id="u7735_div" class=""></div>
+        <div id="u7735_text" class="text ">
+          <p><span>同步、排序、置顶</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7736" class="ax_default label">
+        <div id="u7736_div" class=""></div>
+        <div id="u7736_text" class="text ">
+          <p><span>清空自选股列表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u7737" class="compound ax_default line" WidgetHeight="41" WidgetWidth="1" CompoundMode="true">
+        <img id="u7737_img" class="singleImg img " src="images/自选后台需求/u7737.png"/>
+        <div id="u7737p000" class="ax_vector_shape" WidgetTopLeftX="-0.434782608695652" WidgetTopLeftY="0" WidgetTopRightX="-0.434782608695652" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="0.456521739130435" WidgetBottomLeftY="0" WidgetBottomRightX="0.456521739130435" WidgetBottomRightY="-0.166666666666667">
+          <img id="u7737p000_img" class="img " src="images/自选后台需求/u7737p000.png"/>
+        </div>
+        <div id="u7737p001" class="ax_vector_shape" WidgetTopLeftX="-0.25" WidgetTopLeftY="-0.25" WidgetTopRightX="0" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="10" WidgetBottomRightX="0" WidgetBottomRightY="10">
+          <img id="u7737p001_img" class="img " src="images/自选后台需求/u7737p001.png"/>
+        </div>
+        <div id="u7737p002" class="ax_vector_shape" WidgetTopLeftX="1.68181818181818" WidgetTopLeftY="0" WidgetTopRightX="1.68181818181818" WidgetTopRightY="0.05" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="0" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0.05">
+          <img id="u7737p002_img" class="img " src="images/自选后台需求/u7737p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u7738" class="compound ax_default line" WidgetHeight="41" WidgetWidth="1" CompoundMode="true">
+        <img id="u7738_img" class="singleImg img " src="images/自选后台需求/u7737.png"/>
+        <div id="u7738p000" class="ax_vector_shape" WidgetTopLeftX="-0.434782608695652" WidgetTopLeftY="0" WidgetTopRightX="-0.434782608695652" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="0.456521739130435" WidgetBottomLeftY="0" WidgetBottomRightX="0.456521739130435" WidgetBottomRightY="-0.166666666666667">
+          <img id="u7738p000_img" class="img " src="images/自选后台需求/u7737p000.png"/>
+        </div>
+        <div id="u7738p001" class="ax_vector_shape" WidgetTopLeftX="-0.25" WidgetTopLeftY="-0.25" WidgetTopRightX="0" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="10" WidgetBottomRightX="0" WidgetBottomRightY="10">
+          <img id="u7738p001_img" class="img " src="images/自选后台需求/u7737p001.png"/>
+        </div>
+        <div id="u7738p002" class="ax_vector_shape" WidgetTopLeftX="1.68181818181818" WidgetTopLeftY="0" WidgetTopRightX="1.68181818181818" WidgetTopRightY="0.05" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="0" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0.05">
+          <img id="u7738p002_img" class="img " src="images/自选后台需求/u7737p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7739" class="ax_default _图像">
+        <img id="u7739_img" class="img " src="images/自选后台需求/u7739.png"/>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u7740" class="compound ax_default line" WidgetHeight="480" WidgetWidth="1" CompoundMode="true">
+        <img id="u7740_img" class="singleImg img " src="images/自选后台需求/u7740.png"/>
+        <div id="u7740p000" class="ax_vector_shape" WidgetTopLeftX="-0.493827160493827" WidgetTopLeftY="0" WidgetTopRightX="-0.493827160493827" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="0.493827160493827" WidgetBottomLeftY="0" WidgetBottomRightX="0.493827160493827" WidgetBottomRightY="-0.166666666666667">
+          <img id="u7740p000_img" class="img " src="images/自选后台需求/u7740p000.png"/>
+        </div>
+        <div id="u7740p001" class="ax_vector_shape" WidgetTopLeftX="-0.25" WidgetTopLeftY="-0.25" WidgetTopRightX="0" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="119.75" WidgetBottomRightX="0" WidgetBottomRightY="119.75">
+          <img id="u7740p001_img" class="img " src="images/自选后台需求/u7737p001.png"/>
+        </div>
+        <div id="u7740p002" class="ax_vector_shape" WidgetTopLeftX="21.6363636363636" WidgetTopLeftY="0" WidgetTopRightX="21.6363636363636" WidgetTopRightY="0.0454545454545455" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="0" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0.0454545454545455">
+          <img id="u7740p002_img" class="img " src="images/自选后台需求/u7740p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7741" class="ax_default _标题3">
+        <div id="u7741_div" class=""></div>
+        <div id="u7741_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">热门搜索设置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u7742" class="compound ax_default line" WidgetHeight="248" WidgetWidth="1" CompoundMode="true">
+        <img id="u7742_img" class="singleImg img " src="images/自选后台需求/u7742.png"/>
+        <div id="u7742p000" class="ax_vector_shape" WidgetTopLeftX="-0.488188976377953" WidgetTopLeftY="0" WidgetTopRightX="-0.488188976377953" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="0.488188976377953" WidgetBottomLeftY="0" WidgetBottomRightX="0.488188976377953" WidgetBottomRightY="-0.166666666666667">
+          <img id="u7742p000_img" class="img " src="images/自选后台需求/u7742p000.png"/>
+        </div>
+        <div id="u7742p001" class="ax_vector_shape" WidgetTopLeftX="-0.25" WidgetTopLeftY="-0.25" WidgetTopRightX="0" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="61.75" WidgetBottomRightX="0" WidgetBottomRightY="61.75">
+          <img id="u7742p001_img" class="img " src="images/自选后台需求/u7737p001.png"/>
+        </div>
+        <div id="u7742p002" class="ax_vector_shape" WidgetTopLeftX="11.0909090909091" WidgetTopLeftY="0" WidgetTopRightX="11.0909090909091" WidgetTopRightY="0.0454545454545455" WidgetBottomLeftX="-0.181818181818182" WidgetBottomLeftY="0" WidgetBottomRightX="-0.181818181818182" WidgetBottomRightY="0.0454545454545455">
+          <img id="u7742p002_img" class="img " src="images/自选后台需求/u7740p002.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u7743" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7744" class="ax_default table_cell">
+          <img id="u7744_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7744_text" class="text ">
+            <p><span>序号</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7745" class="ax_default table_cell">
+          <img id="u7745_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7745_text" class="text ">
+            <p><span>股票名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7746" class="ax_default table_cell">
+          <img id="u7746_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7746_text" class="text ">
+            <p><span>股票代码</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7747" class="ax_default table_cell">
+          <img id="u7747_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7747_text" class="text ">
+            <p><span>排序</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7748" class="ax_default table_cell">
+          <img id="u7748_img" class="img " src="images/资讯分享/u3856.png"/>
+          <div id="u7748_text" class="text ">
+            <p><span>操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7749" class="ax_default table_cell">
+          <img id="u7749_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7749_text" class="text ">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7750" class="ax_default table_cell">
+          <img id="u7750_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7751" class="ax_default table_cell">
+          <img id="u7751_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7752" class="ax_default table_cell">
+          <img id="u7752_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7753" class="ax_default table_cell">
+          <img id="u7753_img" class="img " src="images/资讯分享/u3856.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7754" class="ax_default table_cell">
+          <img id="u7754_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7754_text" class="text ">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7755" class="ax_default table_cell">
+          <img id="u7755_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7756" class="ax_default table_cell">
+          <img id="u7756_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7757" class="ax_default table_cell">
+          <img id="u7757_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7758" class="ax_default table_cell">
+          <img id="u7758_img" class="img " src="images/资讯分享/u3856.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7759" class="ax_default table_cell">
+          <img id="u7759_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7759_text" class="text ">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7760" class="ax_default table_cell">
+          <img id="u7760_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7761" class="ax_default table_cell">
+          <img id="u7761_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7762" class="ax_default table_cell">
+          <img id="u7762_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7763" class="ax_default table_cell">
+          <img id="u7763_img" class="img " src="images/资讯分享/u3856.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7764" class="ax_default table_cell">
+          <img id="u7764_img" class="img " src="images/7x24__/u3803.png"/>
+          <div id="u7764_text" class="text ">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7765" class="ax_default table_cell">
+          <img id="u7765_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7766" class="ax_default table_cell">
+          <img id="u7766_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7767" class="ax_default table_cell">
+          <img id="u7767_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7768" class="ax_default table_cell">
+          <img id="u7768_img" class="img " src="images/资讯分享/u3856.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7769" class="ax_default table_cell">
+          <img id="u7769_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7770" class="ax_default table_cell">
+          <img id="u7770_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7771" class="ax_default table_cell">
+          <img id="u7771_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7772" class="ax_default table_cell">
+          <img id="u7772_img" class="img " src="images/7x24__/u3803.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7773" class="ax_default table_cell">
+          <img id="u7773_img" class="img " src="images/资讯分享/u3856.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7774" class="ax_default table_cell">
+          <img id="u7774_img" class="img " src="images/资讯分享/u3869.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7775" class="ax_default table_cell">
+          <img id="u7775_img" class="img " src="images/资讯分享/u3869.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7776" class="ax_default table_cell">
+          <img id="u7776_img" class="img " src="images/资讯分享/u3869.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7777" class="ax_default table_cell">
+          <img id="u7777_img" class="img " src="images/资讯分享/u3869.png"/>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u7778" class="ax_default table_cell">
+          <img id="u7778_img" class="img " src="images/资讯分享/u3872.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7779" class="ax_default button">
+        <div id="u7779_div" class=""></div>
+        <div id="u7779_text" class="text ">
+          <p><span style="font-family:'ArialMT', 'Arial';">+</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7780" class="ax_default box_1">
+        <div id="u7780_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7781" class="ax_default _标题3">
+        <div id="u7781_div" class=""></div>
+        <div id="u7781_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7782" class="ax_default label">
+        <div id="u7782_div" class=""></div>
+        <div id="u7782_text" class="text ">
+          <p><span>股票代码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7783" class="ax_default _图像">
+        <img id="u7783_img" class="img " src="images/自选后台需求/u7783.png"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7784" class="ax_default _图像">
+        <img id="u7784_img" class="img " src="images/自选后台需求/u7784.png"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7785" class="ax_default _图像">
+        <img id="u7785_img" class="img " src="images/自选后台需求/u7785.png"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u7786" class="ax_default text_field">
+        <input id="u7786_input" type="text" value=""/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7787" class="ax_default box_1">
+        <div id="u7787_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7788" class="ax_default _标题3">
+        <div id="u7788_div" class=""></div>
+        <div id="u7788_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">修改</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7789" class="ax_default label">
+        <div id="u7789_div" class=""></div>
+        <div id="u7789_text" class="text ">
+          <p><span>股票代码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7790" class="ax_default _图像">
+        <img id="u7790_img" class="img " src="images/自选后台需求/u7783.png"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u7791" class="ax_default text_field">
+        <input id="u7791_input" type="text" value="002008"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7792" class="ax_default _文本">
+        <div id="u7792_div" class=""></div>
+        <div id="u7792_text" class="text ">
+          <p><span>点击添加，弹出添加页面，可以添加股票代码与股票名称，添加顺序即为排序顺序，最大支持配置6个，如超过六个提示出错，话术提醒：【最多允许添加股票数量为6个】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7793" class="ax_default _文本">
+        <div id="u7793_div" class=""></div>
+        <div id="u7793_text" class="text ">
+          <p><span>点击上箭头排序上调一级，同理点击下箭头排序下调一级。</span></p><p><span><br></span></p><p><span>上下边界提醒【已经到最顶部】、【已经到最底部】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7794" class="ax_default _文本">
+        <div id="u7794_div" class=""></div>
+        <div id="u7794_text" class="text ">
+          <p><span>点击【修改】可修改当前操作序号对应的股票代码和股票名称，进入修改页面时，股票代码和股票名称自动填充。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7795" class="ax_default _文本">
+        <div id="u7795_div" class=""></div>
+        <div id="u7795_text" class="text ">
+          <p><span>点击【删除】弹出提醒，【是否删除？】&nbsp; 点击是则删掉当前序号股票名称与股票代码，排序需补缺。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7796" class="ax_default label">
+        <div id="u7796_div" class=""></div>
+        <div id="u7796_text" class="text ">
+          <p><span>注：序号需始终连续</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7797" class="ax_default _图像">
+        <img id="u7797_img" class="img " src="images/自选后台需求/u7797.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7798" class="ax_default _文本">
+        <div id="u7798_div" class=""></div>
+        <div id="u7798_text" class="text ">
+          <p><span>接口根据股票代码</span><span style="color:#FF0000;">获取股票名称</span></p><p><span><br></span></p><p><span>特殊情况：</span></p><p><span>1、股票代码不存在，提示【股票代码不存在，请重新输入】</span></p><p><span>2、股票代码已在列表中存在，提示【股票代码重复，请重新输入】</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7799" class="ax_default _形状">
+        <img id="u7799_img" class="img " src="images/自选后台需求/u7799.png"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7800" class="ax_default _图像">
+        <img id="u7800_img" class="img " src="images/名家专区/u239.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7801" class="ax_default _形状">
+        <img id="u7801_img" class="img " src="images/自选后台需求/u7801.png"/>
+        <div id="u7801_text" class="text ">
+          <p><span>&nbsp;&nbsp;&nbsp; 输入股票名称/代码/首字母...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7802" class="ax_default _形状">
+        <img id="u7802_img" class="img " src="images/自选后台需求/u7802.png"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7803" class="ax_default _图像">
+        <img id="u7803_img" class="img " src="images/名家专区/u402.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7804" class="ax_default _文本">
+        <div id="u7804_div" class=""></div>
+        <div id="u7804_text" class="text ">
+          <p><span>历史搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7805" class="ax_default _文本">
+        <div id="u7805_div" class=""></div>
+        <div id="u7805_text" class="text ">
+          <p><span>热门搜索</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7806" class="ax_default _文本">
+        <div id="u7806_div" class=""></div>
+        <div id="u7806_text" class="text ">
+          <p><span>连云港</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7807" class="ax_default _文本">
+        <div id="u7807_div" class=""></div>
+        <div id="u7807_text" class="text ">
+          <p><span>贵州茅台</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7808" class="ax_default _文本">
+        <div id="u7808_div" class=""></div>
+        <div id="u7808_text" class="text ">
+          <p><span>连云港</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7809" class="ax_default _文本">
+        <div id="u7809_div" class=""></div>
+        <div id="u7809_text" class="text ">
+          <p><span>连云港</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7810" class="ax_default _文本">
+        <div id="u7810_div" class=""></div>
+        <div id="u7810_text" class="text ">
+          <p><span>贵州茅台</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7811" class="ax_default _文本">
+        <div id="u7811_div" class=""></div>
+        <div id="u7811_text" class="text ">
+          <p><span>连云港</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7812" class="ax_default _文本">
+        <div id="u7812_div" class=""></div>
+        <div id="u7812_text" class="text ">
+          <p><span>冀东水泥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7813" class="ax_default _文本">
+        <div id="u7813_div" class=""></div>
+        <div id="u7813_text" class="text ">
+          <p><span>000401</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u7814" class="ax_default _横线">
+        <img id="u7814_img" class="img " src="images/诊股/u4706.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7815" class="ax_default _文本">
+        <div id="u7815_div" class=""></div>
+        <div id="u7815_text" class="text ">
+          <p><span>冀东水泥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7816" class="ax_default _文本">
+        <div id="u7816_div" class=""></div>
+        <div id="u7816_text" class="text ">
+          <p><span>000401</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u7817" class="ax_default _横线">
+        <img id="u7817_img" class="img " src="images/诊股/u4706.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7818" class="ax_default _文本">
+        <div id="u7818_div" class=""></div>
+        <div id="u7818_text" class="text ">
+          <p><span>+自选</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7819" class="ax_default _文本">
+        <div id="u7819_div" class=""></div>
+        <div id="u7819_text" class="text ">
+          <p><span>已添加</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7820" class="ax_default _文本">
+        <div id="u7820_div" class=""></div>
+        <div id="u7820_text" class="text ">
+          <p><span>清空搜索记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u7821" class="ax_default _标题3">
+        <div id="u7821_div" class=""></div>
+        <div id="u7821_text" class="text ">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">APP</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-style:normal;">前端页面</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
